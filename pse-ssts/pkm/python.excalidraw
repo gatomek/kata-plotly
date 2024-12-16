@@ -1,0 +1,377 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "wNY5YV1IdNPW9fgl8j9eO",
+      "type": "ellipse",
+      "x": 626,
+      "y": 328,
+      "width": 217,
+      "height": 152,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 793154645,
+      "version": 26,
+      "versionNonce": 856093109,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "4mjdRGCHLPSouiO5TBHPY"
+        },
+        {
+          "id": "QG0sBdcNim63rrwaJ7-ou",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734380806934,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "4mjdRGCHLPSouiO5TBHPY",
+      "type": "text",
+      "x": 676.4989307207518,
+      "y": 381.2598846298224,
+      "width": 115.55996704101562,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 639151093,
+      "version": 10,
+      "versionNonce": 1000746421,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734380778782,
+      "link": null,
+      "locked": false,
+      "text": "Python",
+      "fontSize": 36,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 32,
+      "containerId": "wNY5YV1IdNPW9fgl8j9eO",
+      "originalText": "Python",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "_KKlTtv1ch1geVzYZAY-B",
+      "type": "text",
+      "x": 898,
+      "y": 235,
+      "width": 255.8358917236328,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 545548635,
+      "version": 84,
+      "versionNonce": 875737205,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "QG0sBdcNim63rrwaJ7-ou",
+          "type": "arrow"
+        },
+        {
+          "id": "Qtj7XVQA5m9EmdypyRD3h",
+          "type": "arrow"
+        },
+        {
+          "id": "BcA3fi_UcyT9SQDmvdcNw",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734380836534,
+      "link": null,
+      "locked": false,
+      "text": "pandas dataframe",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "pandas dataframe",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "R0TKLGrFK5YXAUjexvf9j",
+      "type": "text",
+      "x": 1510,
+      "y": 125.83333333333326,
+      "width": 696.735595703125,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1177679381,
+      "version": 18,
+      "versionNonce": 1843754293,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Qtj7XVQA5m9EmdypyRD3h",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734380831444,
+      "link": "https://www.geeksforgeeks.org/different-ways-to-iterate-over-rows-in-pandas-dataframe/",
+      "locked": false,
+      "text": "https://www.geeksforgeeks.org/different-ways-to-iterate-over-rows-in-pandas-dataframe/",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 14,
+      "containerId": null,
+      "originalText": "https://www.geeksforgeeks.org/different-ways-to-iterate-over-rows-in-pandas-dataframe/",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "QG0sBdcNim63rrwaJ7-ou",
+      "type": "arrow",
+      "x": 810.076503962291,
+      "y": 335.021534055846,
+      "width": 81.9234960377097,
+      "height": 82.26470756104573,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1985689019,
+      "version": 94,
+      "versionNonce": 902160795,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734380815588,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          81.9234960377097,
+          -82.26470756104573
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "wNY5YV1IdNPW9fgl8j9eO",
+        "focus": 0.04064877597288338,
+        "gap": 12.382066799760409
+      },
+      "endBinding": {
+        "elementId": "_KKlTtv1ch1geVzYZAY-B",
+        "focus": 0.9196178262603961,
+        "gap": 5.999999999999318
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "Qtj7XVQA5m9EmdypyRD3h",
+      "type": "arrow",
+      "x": 1384.9640655517585,
+      "y": 185.03564618374142,
+      "width": 122.03593444824241,
+      "height": 64.92356490872243,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 465367509,
+      "version": 240,
+      "versionNonce": 480888315,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1734380833694,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          122.03593444824241,
+          -64.92356490872243
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "KnpzyS3eQZVhQeb12gUfm",
+        "focus": 0.7253782417659823,
+        "gap": 11.304153442382812
+      },
+      "endBinding": {
+        "elementId": "R0TKLGrFK5YXAUjexvf9j",
+        "focus": 1.037460465268751,
+        "gap": 5.721252058314263
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "KnpzyS3eQZVhQeb12gUfm",
+      "type": "text",
+      "x": 1289.0000000000007,
+      "y": 175.66666666666674,
+      "width": 84.659912109375,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1933801595,
+      "version": 55,
+      "versionNonce": 887019317,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Qtj7XVQA5m9EmdypyRD3h",
+          "type": "arrow"
+        },
+        {
+          "id": "BcA3fi_UcyT9SQDmvdcNw",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734380836534,
+      "link": null,
+      "locked": false,
+      "text": "iteration",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "iteration",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "BcA3fi_UcyT9SQDmvdcNw",
+      "type": "arrow",
+      "x": 1163.0000000000007,
+      "y": 238.66666666666674,
+      "width": 117,
+      "height": 51,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2031439515,
+      "version": 31,
+      "versionNonce": 1942936021,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734380836534,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          117,
+          -51
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "_KKlTtv1ch1geVzYZAY-B",
+        "focus": 0.6268215100327958,
+        "gap": 9.16410827636787
+      },
+      "endBinding": {
+        "elementId": "KnpzyS3eQZVhQeb12gUfm",
+        "focus": 0.7390459900497934,
+        "gap": 9
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

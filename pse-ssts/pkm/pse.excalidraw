@@ -1,0 +1,276 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "sE_q00-8aaTlgu80vg1aO",
+      "type": "ellipse",
+      "x": 507,
+      "y": 369,
+      "width": 205,
+      "height": 113,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 102338531,
+      "version": 41,
+      "versionNonce": 525013933,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "Py7SRr4HpvTFT0as1N37x"
+        },
+        {
+          "id": "jx6zJ32ajpG6n_D9dtAAY",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734380113831,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Py7SRr4HpvTFT0as1N37x",
+      "type": "text",
+      "x": 574.547563534336,
+      "y": 403.0484668629601,
+      "width": 69.94798278808594,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1863443619,
+      "version": 22,
+      "versionNonce": 1119158147,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734380104488,
+      "link": null,
+      "locked": false,
+      "text": "PSE",
+      "fontSize": 36,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 32,
+      "containerId": "sE_q00-8aaTlgu80vg1aO",
+      "originalText": "PSE",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "--VGxsa8yRVezgv18ky9W",
+      "type": "text",
+      "x": 800,
+      "y": 285,
+      "width": 55.74794006347656,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1891867523,
+      "version": 45,
+      "versionNonce": 493029795,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "jx6zJ32ajpG6n_D9dtAAY",
+          "type": "arrow"
+        },
+        {
+          "id": "XUmYwOz3_BOanh4g_TAf5",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734380113831,
+      "link": null,
+      "locked": false,
+      "text": "Linki",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "Linki",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "s3P8bcnPoDND-NW8uOZW0",
+      "type": "text",
+      "x": 960,
+      "y": 220.5,
+      "width": 456.62371826171875,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 2104177443,
+      "version": 40,
+      "versionNonce": 627447309,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "XUmYwOz3_BOanh4g_TAf5",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734380113831,
+      "link": "https://www.dash-leaflet.com/components/ui_layers/marker",
+      "locked": false,
+      "text": "https://www.dash-leaflet.com/components/ui_layers/marker",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 14,
+      "containerId": null,
+      "originalText": "https://www.dash-leaflet.com/components/ui_layers/marker",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "jx6zJ32ajpG6n_D9dtAAY",
+      "type": "arrow",
+      "x": 689,
+      "y": 381,
+      "width": 102,
+      "height": 68,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 746510019,
+      "version": 31,
+      "versionNonce": 1547164995,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734380113831,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          102,
+          -68
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "sE_q00-8aaTlgu80vg1aO",
+        "focus": 0.09586516973166818,
+        "gap": 7.448874496836481
+      },
+      "endBinding": {
+        "elementId": "--VGxsa8yRVezgv18ky9W",
+        "focus": 0.3902886284829289,
+        "gap": 9
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "XUmYwOz3_BOanh4g_TAf5",
+      "type": "arrow",
+      "x": 856,
+      "y": 283,
+      "width": 93,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1822230115,
+      "version": 30,
+      "versionNonce": 162647149,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734380113831,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          93,
+          -53
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "--VGxsa8yRVezgv18ky9W",
+        "focus": -0.10397394015689022,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "s3P8bcnPoDND-NW8uOZW0",
+        "focus": 0.9769387711927876,
+        "gap": 11
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
