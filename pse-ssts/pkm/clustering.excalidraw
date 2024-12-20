@@ -1,0 +1,470 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "tXQFA01CcSz8SSJ3MzRYp",
+      "type": "ellipse",
+      "x": 511.2222222222222,
+      "y": 246.66666666666663,
+      "width": 302,
+      "height": 164.99999999999997,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 192842272,
+      "version": 164,
+      "versionNonce": 711773152,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "SnsRcaeWD38iXb3LdZgY_"
+        },
+        {
+          "id": "QJMb_HSZd6C0VsrNEUtuU",
+          "type": "arrow"
+        },
+        {
+          "id": "rBqUf94lHfMQBCJJFqtoK",
+          "type": "arrow"
+        },
+        {
+          "id": "tFuHNpXYxol_8dTpCqxl9",
+          "type": "arrow"
+        },
+        {
+          "id": "LZpqVxyNdBlUOnHdBiExc",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734553891074,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "SnsRcaeWD38iXb3LdZgY_",
+      "type": "text",
+      "x": 579.5591370203776,
+      "y": 306.83035721877644,
+      "width": 165.77992248535156,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1038004768,
+      "version": 193,
+      "versionNonce": 514211360,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734553772744,
+      "link": null,
+      "locked": false,
+      "text": "clustering",
+      "fontSize": 36,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 32,
+      "containerId": "tXQFA01CcSz8SSJ3MzRYp",
+      "originalText": "clustering",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Ru1yUj_sQvc1LuQ8ZqogH",
+      "type": "text",
+      "x": 972,
+      "y": 142,
+      "width": 506.13958740234375,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1265124896,
+      "version": 30,
+      "versionNonce": 410935840,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "QJMb_HSZd6C0VsrNEUtuU",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734553891075,
+      "link": "https://www.dash-leaflet.com/docs/geojson_tutorial",
+      "locked": false,
+      "text": "https://www.dash-leaflet.com/docs/geojson_tutorial",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://www.dash-leaflet.com/docs/geojson_tutorial",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "QJMb_HSZd6C0VsrNEUtuU",
+      "type": "arrow",
+      "x": 783.3798365201461,
+      "y": 256.78858220561335,
+      "width": 181.6201634798539,
+      "height": 101.030586002896,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1589281312,
+      "version": 242,
+      "versionNonce": 2124959712,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734553891075,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          181.6201634798539,
+          -101.030586002896
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "tXQFA01CcSz8SSJ3MzRYp",
+        "focus": -0.04165146558931191,
+        "gap": 20.039929164169592
+      },
+      "endBinding": {
+        "elementId": "Ru1yUj_sQvc1LuQ8ZqogH",
+        "focus": 0.9356450628544369,
+        "gap": 7
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "x50YwzlKC3sxcBaceGDIN",
+      "type": "text",
+      "x": 1032.8611111111113,
+      "y": 243.16666666666663,
+      "width": 450.3596496582031,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1147485728,
+      "version": 25,
+      "versionNonce": 1521294880,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "rBqUf94lHfMQBCJJFqtoK",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734553891075,
+      "link": "https://www.dash-leaflet.com/docs/func_props",
+      "locked": false,
+      "text": "https://www.dash-leaflet.com/docs/func_props",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://www.dash-leaflet.com/docs/func_props",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "rBqUf94lHfMQBCJJFqtoK",
+      "type": "arrow",
+      "x": 813.5308555390233,
+      "y": 297.47140578100687,
+      "width": 205.99692223875468,
+      "height": 38.39873128435761,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 492337696,
+      "version": 85,
+      "versionNonce": 1221809120,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734553891075,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          205.99692223875468,
+          -38.39873128435761
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "tXQFA01CcSz8SSJ3MzRYp",
+        "focus": -0.03740299019138372,
+        "gap": 10.04767597895534
+      },
+      "endBinding": {
+        "elementId": "x50YwzlKC3sxcBaceGDIN",
+        "focus": 0.753634933737537,
+        "gap": 13.333333333333371
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "Oi06_dU2iezp5BHcMPlB0",
+      "type": "text",
+      "x": 1039.5277777777778,
+      "y": 364.2777777777777,
+      "width": 406.9596862792969,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1820603936,
+      "version": 36,
+      "versionNonce": 1604606496,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "tFuHNpXYxol_8dTpCqxl9",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734553891075,
+      "link": "https://www.dash-leaflet.com/docs/events",
+      "locked": false,
+      "text": "https://www.dash-leaflet.com/docs/events",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://www.dash-leaflet.com/docs/events",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "tFuHNpXYxol_8dTpCqxl9",
+      "type": "arrow",
+      "x": 828.4840230285462,
+      "y": 340.5434462633028,
+      "width": 202.15486586034274,
+      "height": 39.309682226462485,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1457025568,
+      "version": 89,
+      "versionNonce": 519952352,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734553891075,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          202.15486586034274,
+          39.309682226462485
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "tXQFA01CcSz8SSJ3MzRYp",
+        "focus": -0.23725602940769633,
+        "gap": 16.373482259933297
+      },
+      "endBinding": {
+        "elementId": "Oi06_dU2iezp5BHcMPlB0",
+        "focus": -0.8521880096970046,
+        "gap": 8.888888888888914
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "9IvNl4NLAoTXkLDWKIo1S",
+      "type": "text",
+      "x": 988.4166666666667,
+      "y": 475.3888888888888,
+      "width": 623.45947265625,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1665478176,
+      "version": 6,
+      "versionNonce": 978589216,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "LZpqVxyNdBlUOnHdBiExc",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734553891075,
+      "link": "https://www.dash-leaflet.com/components/vector_layers/geojson",
+      "locked": false,
+      "text": "https://www.dash-leaflet.com/components/vector_layers/geojson",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://www.dash-leaflet.com/components/vector_layers/geojson",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "LZpqVxyNdBlUOnHdBiExc",
+      "type": "arrow",
+      "x": 802.8611111111112,
+      "y": 379.83333333333326,
+      "width": 174.44444444444446,
+      "height": 98.88888888888891,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 985295392,
+      "version": 46,
+      "versionNonce": 1429724128,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734553891075,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          174.44444444444446,
+          98.88888888888891
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "tXQFA01CcSz8SSJ3MzRYp",
+        "focus": -0.2444279908425369,
+        "gap": 13.625399572250487
+      },
+      "endBinding": {
+        "elementId": "9IvNl4NLAoTXkLDWKIo1S",
+        "focus": -0.9187793203377256,
+        "gap": 11.111111111111086
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
