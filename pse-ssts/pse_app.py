@@ -15,54 +15,42 @@ def load_data(filePath):
     rows = []
     xmlparse = Xet.parse(filePath)
     root = xmlparse.getroot()
-    for row in root.iter('row'):
-        target = None
-        for cell in row.iter('cell'):
-            target = cell
-        text = target.get('text')
-        parts = text.split()
-
-        name = get_param(parts[0])
-        lat = get_param(parts[2])
-        lon = get_param(parts[1])
-        vl_750 = get_param(parts[3])
-        vl_400 = get_param(parts[4])
-        vl_220 = get_param(parts[5])
-        vl_110 = get_param(parts[6])
-        vl_20 = get_param(parts[7])
-        vl_15 = get_param(parts[8])
-
+    for row in root.iter('sst'):
+        vls_file = row.get('vls').split(',')
         rows.append({
-            "name": name,
-            "lat": lat,
-            "lon": lon,
-            "vl_750": vl_750,
-            "vl_400": vl_400,
-            "vl_220": vl_220,
-            "vl_110": vl_110,
-            "vl_20": vl_20,
-            "vl_15": vl_15}
+                "desc": row.get('desc'),
+                "geo": row.get('geo'),
+                "name": row.get('name'),
+                "lat": row.get('lat'),
+                "lon": row.get('lon'),
+                "path": row.get('path'),
+                "vl_750": True if ('750' in vls_file) else False,
+                "vl_400": True if ('400' in vls_file) else False,
+                "vl_220": True if ('220' in vls_file) else False,
+                "vl_110": True if ('110' in vls_file) else False,
+                "vl_20": True if ('20' in vls_file) else False,
+                "vl_15": True if ('15' in vls_file) else False
+            }
         )
 
-    cols = ["name", "lat", "lon", "vl_750", "vl_400", "vl_220", "vl_110", "vl_20", "vl_15"]
+    cols = ["desc", "geo", "name", "lat", "lon", "path", "vl_750", "vl_400", "vl_220", "vl_110", "vl_20", "vl_15"]
     return pd.DataFrame(rows, columns=cols)
 
 def make_markers(ssts):
     markers = []
     for index, row in ssts.iterrows():
         markers.append(
-            dict(name=row["name"], lat=row["lat"], lon=row["lon"])
+            dict(name=row["name"], lat=row["lat"], lon=row["lon"], desc=row['desc'])
         )
     return markers
 
 # Data processing ***
 
-all_ssts = load_data('db/sst-report.xml')
-ssts = all_ssts[all_ssts['vl_110'] == '1']
+all_ssts = load_data('db/pse-geo-ssts.xml')
+ssts = all_ssts[ all_ssts['vl_110'] == True]
 markers = make_markers(ssts)
-
 geojson = dlx.dicts_to_geojson(
-    [{**c, **dict(tooltip="<b><h6>" + c['name'] + "</h6></b><br/>LAT: " + c['lat'] + '<br/>LON: ' + c['lon'])}
+    [{**c, **dict(tooltip="<b><h6>" + c['desc'] + "</h6></b><br/>LAT: " + c['lat'] + '<br/>LON: ' + c['lon'])}
      for c in markers])
 
 # App Layout ***
