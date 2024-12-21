@@ -16,7 +16,14 @@ def load_data(filePath):
     xmlparse = Xet.parse(filePath)
     root = xmlparse.getroot()
     for row in root.iter('sst'):
-        vls = row.get('vls').split(',')
+        vls = row.get('vls')
+        vl_splits = vls.split(',')
+        vl_array = []
+        for vl in vl_splits:
+            if( vl != ''):
+                vl_array.append( float(vl))
+        vl_array.sort(reverse=True)
+        vl_str = list( map( str, vl_array))
         rows.append({
                 "desc": row.get('desc'),
                 "geo": row.get('geo'),
@@ -24,33 +31,35 @@ def load_data(filePath):
                 "lat": row.get('lat'),
                 "lon": row.get('lon'),
                 "path": row.get('path'),
-                "vl_750": True if ('750' in vls) else False,
-                "vl_400": True if ('400' in vls) else False,
-                "vl_220": True if ('220' in vls) else False,
-                "vl_110": True if ('110' in vls) else False,
-                "vl_20": True if ('20' in vls) else False,
-                "vl_15": True if ('15' in vls) else False
+                "vls": ', '.join( vl_str),
+                "vl_750": True if (750 in vl_array) else False,
+                "vl_400": True if (400 in vl_array) else False,
+                "vl_220": True if (220 in vl_array) else False,
+                "vl_110": True if (110 in vl_array) else False,
+                "vl_20": True if (20 in vl_array) else False,
+                "vl_15": True if (15 in vl_array) else False,
+                "vl_10": True if (10 in vl_array) else False
             }
         )
 
-    cols = ["desc", "geo", "name", "lat", "lon", "path", "vl_750", "vl_400", "vl_220", "vl_110", "vl_20", "vl_15"]
+    cols = ["desc", "geo", "name", "lat", "lon", "path", "vls", "vl_750", "vl_400", "vl_220", "vl_110", "vl_20", "vl_15", "vl_10"]
     return pd.DataFrame(rows, columns=cols)
 
 def make_markers(ssts):
     markers = []
     for index, row in ssts.iterrows():
         markers.append(
-            dict(name=row["name"], lat=row["lat"], lon=row["lon"], desc=row['desc'])
+            dict(name=row["name"], lat=row["lat"], lon=row["lon"], desc=row['desc'], vls=row['vls'])
         )
     return markers
 
 # Data processing ***
 
 all_ssts = load_data('db/pse-geo-ssts.xml')
-ssts = all_ssts[ all_ssts['vl_15'] == True]
+ssts = all_ssts[ all_ssts['vl_220'] == True]
 markers = make_markers(ssts)
 geojson = dlx.dicts_to_geojson(
-    [{**c, **dict(tooltip="<b><h6>" + c['desc'] + "</h6></b><br/>LAT: " + c['lat'] + '<br/>LON: ' + c['lon'])}
+    [{**c, **dict(tooltip="<h6><b>" + c['desc'] + "</b><br/>" + c['vls'] + "</h6>")}
      for c in markers])
 
 # App Layout ***
@@ -84,7 +93,7 @@ app.layout = html.Div(
                 id="pse-map",
                 center=[52, 19],
                 zoom=6,
-                style={'height': '100vh'}
+                style={'height': '98vh'}
             ),
             className="row "
         )
