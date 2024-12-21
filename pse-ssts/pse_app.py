@@ -16,7 +16,7 @@ def load_data(filePath):
     xmlparse = Xet.parse(filePath)
     root = xmlparse.getroot()
     for row in root.iter('sst'):
-        vls_file = row.get('vls').split(',')
+        vls = row.get('vls').split(',')
         rows.append({
                 "desc": row.get('desc'),
                 "geo": row.get('geo'),
@@ -24,12 +24,12 @@ def load_data(filePath):
                 "lat": row.get('lat'),
                 "lon": row.get('lon'),
                 "path": row.get('path'),
-                "vl_750": True if ('750' in vls_file) else False,
-                "vl_400": True if ('400' in vls_file) else False,
-                "vl_220": True if ('220' in vls_file) else False,
-                "vl_110": True if ('110' in vls_file) else False,
-                "vl_20": True if ('20' in vls_file) else False,
-                "vl_15": True if ('15' in vls_file) else False
+                "vl_750": True if ('750' in vls) else False,
+                "vl_400": True if ('400' in vls) else False,
+                "vl_220": True if ('220' in vls) else False,
+                "vl_110": True if ('110' in vls) else False,
+                "vl_20": True if ('20' in vls) else False,
+                "vl_15": True if ('15' in vls) else False
             }
         )
 
@@ -47,7 +47,7 @@ def make_markers(ssts):
 # Data processing ***
 
 all_ssts = load_data('db/pse-geo-ssts.xml')
-ssts = all_ssts[ all_ssts['vl_110'] == True]
+ssts = all_ssts[ all_ssts['vl_15'] == True]
 markers = make_markers(ssts)
 geojson = dlx.dicts_to_geojson(
     [{**c, **dict(tooltip="<b><h6>" + c['desc'] + "</h6></b><br/>LAT: " + c['lat'] + '<br/>LON: ' + c['lon'])}
