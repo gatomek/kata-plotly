@@ -1,0 +1,377 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "xORisvu5c1IY86VuQzFEw",
+      "type": "ellipse",
+      "x": 568,
+      "y": 354,
+      "width": 247.99999999999994,
+      "height": 135.99999999999997,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 719862729,
+      "version": 123,
+      "versionNonce": 1793369321,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "wrVzZ1Ev3U6WUXw1SUz-H"
+        },
+        {
+          "id": "BUNijJP0Tb-_A5PmqFMOy",
+          "type": "arrow"
+        },
+        {
+          "id": "A1tKtU_dKFInyJa4XZK7s",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734826472756,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "wrVzZ1Ev3U6WUXw1SUz-H",
+      "type": "text",
+      "x": 632.4187804951728,
+      "y": 399.4167388793148,
+      "width": 118.79995727539062,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1229321897,
+      "version": 96,
+      "versionNonce": 580199303,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734826326451,
+      "link": null,
+      "locked": false,
+      "text": "Docker",
+      "fontSize": 36,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 32,
+      "containerId": "xORisvu5c1IY86VuQzFEw",
+      "originalText": "Docker",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "_SVpXG4UXcEHHJ1VsrOuc",
+      "type": "text",
+      "x": 1224,
+      "y": 209,
+      "width": 640.8193969726562,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1197468393,
+      "version": 87,
+      "versionNonce": 517159463,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "BUNijJP0Tb-_A5PmqFMOy",
+          "type": "arrow"
+        },
+        {
+          "id": "sd8g8aCzvpi8CrXMk7cpB",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734826472756,
+      "link": "https://python.plainenglish.io/dockerizing-plotly-dash-5c23009fc10b",
+      "locked": false,
+      "text": "https://python.plainenglish.io/dockerizing-plotly-dash-5c23009fc10b",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://python.plainenglish.io/dockerizing-plotly-dash-5c23009fc10b",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "BUNijJP0Tb-_A5PmqFMOy",
+      "type": "arrow",
+      "x": 802.3652307241828,
+      "y": 373.7105815834202,
+      "width": 129.17864733601607,
+      "height": 75.2069214632084,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 216459305,
+      "version": 376,
+      "versionNonce": 1454514121,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734826472756,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          129.17864733601607,
+          -75.2069214632084
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "xORisvu5c1IY86VuQzFEw",
+        "focus": 0.1750311039671563,
+        "gap": 13.240941794932624
+      },
+      "endBinding": {
+        "elementId": "Cx9zoTLiM7L34XuDW4h5L",
+        "focus": 0.6180286473385688,
+        "gap": 8.456121939801278
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "Cx9zoTLiM7L34XuDW4h5L",
+      "type": "text",
+      "x": 940,
+      "y": 270,
+      "width": 151.95594787597656,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 671169225,
+      "version": 69,
+      "versionNonce": 1020747079,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "BUNijJP0Tb-_A5PmqFMOy",
+          "type": "arrow"
+        },
+        {
+          "id": "sd8g8aCzvpi8CrXMk7cpB",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734826472756,
+      "link": null,
+      "locked": false,
+      "text": "Docker Hub",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "Docker Hub",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "sd8g8aCzvpi8CrXMk7cpB",
+      "type": "arrow",
+      "x": 1103,
+      "y": 284.89800426633064,
+      "width": 114.54563684551431,
+      "height": 48.18854006283621,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1957329161,
+      "version": 83,
+      "versionNonce": 617430697,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734826472756,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          114.54563684551431,
+          -48.18854006283621
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "Cx9zoTLiM7L34XuDW4h5L",
+        "focus": 0.6902864589429006,
+        "gap": 11.044052124023438
+      },
+      "endBinding": {
+        "elementId": "_SVpXG4UXcEHHJ1VsrOuc",
+        "focus": 0.8303111945769563,
+        "gap": 7
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "hQ2keDv1OuO4hjFHnqusA",
+      "type": "text",
+      "x": 948,
+      "y": 545,
+      "width": 774.519287109375,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1839491689,
+      "version": 95,
+      "versionNonce": 1219107943,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "A1tKtU_dKFInyJa4XZK7s",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734826472756,
+      "link": "https://medium.com/@yahyasghiouri1998/dockerize-your-dash-app-f502275475fa",
+      "locked": false,
+      "text": "https://medium.com/@yahyasghiouri1998/dockerize-your-dash-app-f502275475fa",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://medium.com/@yahyasghiouri1998/dockerize-your-dash-app-f502275475fa",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "A1tKtU_dKFInyJa4XZK7s",
+      "type": "arrow",
+      "x": 804,
+      "y": 456,
+      "width": 136,
+      "height": 91,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1336412489,
+      "version": 42,
+      "versionNonce": 65110409,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734826472756,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          136,
+          91
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "xORisvu5c1IY86VuQzFEw",
+        "focus": -0.3816437507568946,
+        "gap": 3.25079288009573
+      },
+      "endBinding": {
+        "elementId": "hQ2keDv1OuO4hjFHnqusA",
+        "focus": -0.9350308817608477,
+        "gap": 8
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
