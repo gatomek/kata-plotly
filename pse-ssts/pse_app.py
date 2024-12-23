@@ -4,6 +4,7 @@ import pandas as pd
 import dash_leaflet as dl
 import dash_leaflet.express as dlx
 import xml.etree.ElementTree as Xet
+from dash_extensions.javascript import assign
 
 from dash import Dash, html, dcc, Input, Output
 
@@ -92,6 +93,16 @@ layerControl = dl.LayersControl(
 stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 app = Dash(__name__, external_stylesheets=stylesheets)
 
+draw_marker = assign(
+    """
+        function(feature, latlng){
+        const ic = L.icon({iconUrl: 'assets/icon.svg', iconSize: [24,24], iconAnchor: L.point(12, 22)});
+        marker = new L.marker(latlng, {icon: ic});         
+        return marker;
+        }
+    """
+)
+
 app.layout = html.Div(
     [
         html.Div(
@@ -158,7 +169,7 @@ def update_graph(chosen_value):
     percentage = round(100 * len(ssts) / len(all_ssts), 1)
 
     return [
-        [dl.GeoJSON(data=geojson, cluster=True),
+        [dl.GeoJSON(data=geojson, pointToLayer=draw_marker, cluster=True),
          layerControl
          ],
         stats + " (" + str(percentage) + "%)"

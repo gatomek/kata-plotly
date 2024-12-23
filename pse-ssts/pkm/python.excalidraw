@@ -24,8 +24,8 @@
         "type": 2
       },
       "seed": 793154645,
-      "version": 27,
-      "versionNonce": 1257546414,
+      "version": 28,
+      "versionNonce": 1848901310,
       "isDeleted": false,
       "boundElements": [
         {
@@ -39,9 +39,13 @@
         {
           "id": "n8CweqFYazNGUd4MN0q5x",
           "type": "arrow"
+        },
+        {
+          "id": "rrhdSeVXq23Yabvyow1LT",
+          "type": "arrow"
         }
       ],
-      "updated": 1734860025525,
+      "updated": 1734962759383,
       "link": null,
       "locked": false
     },
@@ -558,6 +562,196 @@
         "elementId": "Xmi2d1v2La_tofPJ82pNH",
         "focus": -0.20708524825827387,
         "gap": 14
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "89j-4j8twObAQsTGBbd7q",
+      "type": "text",
+      "x": 371.71428571428555,
+      "y": 252.28571428571422,
+      "width": 112.64393615722656,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 86019554,
+      "version": 47,
+      "versionNonce": 495776766,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "rrhdSeVXq23Yabvyow1LT",
+          "type": "arrow"
+        },
+        {
+          "id": "MVIKZIFa1VKs0mPq-w1EX",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734962769392,
+      "link": null,
+      "locked": false,
+      "text": "Rounding",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "Rounding",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "rrhdSeVXq23Yabvyow1LT",
+      "type": "arrow",
+      "x": 625.6851342043757,
+      "y": 352.30452569609804,
+      "width": 131.11370563294724,
+      "height": 77.25593739877729,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1236982434,
+      "version": 63,
+      "versionNonce": 1996655742,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734962769392,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -131.11370563294724,
+          -77.25593739877729
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "wNY5YV1IdNPW9fgl8j9eO",
+        "focus": -0.14360055102398211,
+        "gap": 20.412667498849686
+      },
+      "endBinding": {
+        "elementId": "89j-4j8twObAQsTGBbd7q",
+        "focus": -0.6696367378655118,
+        "gap": 10.213206699916327
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "7ymsyCjkQE4UStbHCUu-w",
+      "type": "text",
+      "x": -278.2857142857142,
+      "y": 153,
+      "width": 533.1756591796875,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 2091561762,
+      "version": 51,
+      "versionNonce": 2038337086,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "MVIKZIFa1VKs0mPq-w1EX",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1734962768063,
+      "link": "https://realpython.com/python-rounding/",
+      "locked": false,
+      "text": "https://realpython.com/python-rounding/",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "https://realpython.com/python-rounding/",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "MVIKZIFa1VKs0mPq-w1EX",
+      "type": "arrow",
+      "x": 365.9999999999999,
+      "y": 260.55085014289756,
+      "width": 109.24546141234248,
+      "height": 70.82808636348975,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 843376034,
+      "version": 71,
+      "versionNonce": 692847870,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1734962769393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -109.24546141234248,
+          -70.82808636348975
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "89j-4j8twObAQsTGBbd7q",
+        "focus": -0.5774278078291345,
+        "gap": 5.714285714285666
+      },
+      "endBinding": {
+        "elementId": "7ymsyCjkQE4UStbHCUu-w",
+        "focus": -0.8134180347672907,
+        "gap": 2.5386265345981656
       },
       "startArrowhead": null,
       "endArrowhead": "arrow"
