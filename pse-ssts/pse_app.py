@@ -121,28 +121,47 @@ app.layout = html.Div(
             ),
             className="row"
         ),
+        html.Div(
+            children=[
+                html.Label(
+                    id="stats",
+                    children=["0 / 0"]
+                )
+            ],
+            className="row",
+            style={'textAlign': 'center'}
+        )
     ]
 )
 
+
 # Callbacks ***
-@app.callback(
-    Output("pse-map", "children"),
-    [Input("vls_checklist", "value")]
-)
+@app.callback([Output("pse-map", "children"),
+               Output("stats", "children")],
+              [Input("vls_checklist", "value")]
+              )
 def update_graph(chosen_value):
-    final_filter = pd.Series(False, range( all_ssts.shape[0]))
+    # map
+    final_filter = pd.Series(False, range(all_ssts.shape[0]))
     for cv in chosen_value:
         final_filter |= all_ssts[cv] == True
 
     ssts = all_ssts[final_filter]
+
     markers = make_markers(ssts)
     geojson = dlx.dicts_to_geojson(
         [{**c, **dict(tooltip="<h6><b>" + c['desc'] + "</b><br/>" + c['vls'] + "</h6>")}
          for c in markers])
 
+    # stats
+    stats = str(len(ssts)) + " / " + str(len(all_ssts))
+    percentage = round(100 * len(ssts) / len(all_ssts), 1)
+
     return [
-        dl.GeoJSON(data=geojson, cluster=True),
-        layerControl
+        [dl.GeoJSON(data=geojson, cluster=True),
+         layerControl
+         ],
+        stats + " (" + str(percentage) + "%)"
     ]
 
 
