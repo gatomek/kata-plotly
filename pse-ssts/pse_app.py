@@ -130,11 +130,11 @@ app.layout = html.Div(
     [Input("vls_checklist", "value")]
 )
 def update_graph(chosen_value):
-    final_filter = pd.Series(False, range(all_ssts.size))
+    final_filter = pd.Series(False, range( all_ssts.shape[0]))
     for cv in chosen_value:
         final_filter |= all_ssts[cv] == True
 
-    ssts = all_ssts.loc[final_filter]
+    ssts = all_ssts[final_filter]
     markers = make_markers(ssts)
     geojson = dlx.dicts_to_geojson(
         [{**c, **dict(tooltip="<h6><b>" + c['desc'] + "</b><br/>" + c['vls'] + "</h6>")}
